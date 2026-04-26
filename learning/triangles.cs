@@ -12,12 +12,13 @@ class Hh
         kirieshki:
         Console.Write("Введи значение высоты треугольника: ");
    string svisota = Console.ReadLine();
-int karapuz = Convert.ToInt32(svisota) + 1;
+int karapuz = Convert.ToInt32(svisota) ;
 if (karapuz > 120)
         {
             Console.WriteLine("слишком большое значение, максимум 120");
 goto kirieshki;
         }
+               karapuz += 1;
   string[] ix = new string[karapuz];
   int i=1;
      Console.WriteLine("");
