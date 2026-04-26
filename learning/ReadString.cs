@@ -1,3 +1,10 @@
+/*
+здесь я создал функцию которая читает строку из консоли и возращает string
+я бы мог использовать return k ?? string.Empty; но не захотел
+
+*/
+
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
