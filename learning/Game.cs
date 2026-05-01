@@ -28,12 +28,12 @@ Console.WriteLine("Я загадал число от 0 до 100 \n попроб�
             if(h < h3)
             {
 
-            Console.WriteLine("загаданное число меньше \n количество попыток: "+ i.ToString());
+            Console.WriteLine("загаданное число больше \n количество попыток: "+ i.ToString());
 
             }else if (h > h3)
             {
 
-                Console.WriteLine("загаданное число больше \n количество попыток: "+ i.ToString());
+                Console.WriteLine("загаданное число меньше \n количество попыток: "+ i.ToString());
 
             }
             else
